@@ -11,6 +11,12 @@
     </pluginRepository>
   </pluginRepositories> 
   
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+  
   <build>
     <plugins>
         <plugin>
@@ -28,7 +34,7 @@
                         <publisher>
                             <contextUrl>http://localhost:8081/artifactory</contextUrl>
                             <username>admin</username>
-                            <password>85Clover</password>
+                            <password>admin</password>
                             <repoKey>libs-release-local</repoKey>
                             <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                         </publisher>
